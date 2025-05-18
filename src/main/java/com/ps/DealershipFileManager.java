@@ -58,7 +58,7 @@ public class DealershipFileManager {
             ArrayList<Vehicle> vehicles = dealership.getAllVehicles();
 
             for (Vehicle vehicle : vehicles) {
-                String vehicleLine = String.format("%d|%d|%s|%s|%s|%s|%d|%f\n",
+                String vehicleLine = String.format("%d|%d|%s|%s|%s|%s|%d|$%.2f\n",
                         vehicle.getVin(),
                         vehicle.getYear(),
                         vehicle.getMake(),
